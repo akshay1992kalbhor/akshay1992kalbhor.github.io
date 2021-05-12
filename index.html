@@ -1,35 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html style="overflow-y:scroll; overscroll-behavior-y: none; font-size: 15px;">
     <head>
         <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
         <title>
-            Akshay Kalbhor
+            Twitter. It's what's happening
         </title>
+        <script src="https://kit.fontawesome.com/5b0a641153.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="images/twitter-1-removebg-preview.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <div id="main-message">
-            <h1>This website is under construction!</h1>
-        </div>
-        <div class="center">
-            <h2>Twitter: AkshayKalbhor92</h2>
-            <h3>Github: akshay1992kalbhor</h3>
-            <div id="square">
-                What is this????
+    <body style="background-color: aliceblue; scrollbar-color: rgb(170,184,194) rgb(247, 249, 250);">
+        <div id="root" style="height:100%;display:flex;flex-direction: column;">
+            <header id="header" style="display:flex;flex-direction:row;">
+                <div id="header-home"><a href="index.html">Home</a></div>
+                <div id="header-projects">Projects</div>
+                <div id="header-resume">Resume</div>
+                <div id="header-blog">Blog</div>
+            </header>
+            <div id="main-content" style="display:flex;flex-direction:row;">
+               <div id="main-content-left"></div>
+               <div id="main-content-main">
+                   <h1>Akshay Kalbhor</h1>
+                   <ul>
+                       <li>I am a software engineer who specializes in iOS and Web Development.</li>
+                       <li>Graduated from the Rochester Institute of Technology in 2019.</li>
+                       <li>I worked for Apple in the summer of 2018 on Family Time, which is
+                       a feature which allows users to use the Apple Watch without a connected
+                       iPhone.</li>
+                       <li>I love working with Swift, JavaScript, Python, Objective-C and
+                       Rust.</li>
+                       <li>I also have open-source experience contributing to big projects
+                       such as Firefox-Gecko, Firefox-iOS and WebKit.</li>
+                   </ul>
+               </div>
+               <div id="main-content-right"></div>
             </div>
-            <div id="projects">
-                <h4>Projects</h4>
-                <ol>
-                    <li>Pomodoro Timer</li>
-                    <li>Word Quiz</li>
-                </ol>
-            </div>
-            <div id="open-source">
-                <h4>Opensource Contributions</h4>
-                <ol>
-                    <li>Firefox-Browser</li>
-                    <li>Firefox-Web-Tools</li>
-                </ol>
-            </div>
+            <footer id="footer" style="display:flex;flex-direction:row;">
+                <div>Instagram</div>
+                <div><a href="https://github.com/akshay1992kalbhor">Github</a></div>
+                <div>LinkedIn</div>
+                <div>Twitter</div>
+            </footer>
         </div>
     </body>
+    <script src="index.js"></script>
 </html>

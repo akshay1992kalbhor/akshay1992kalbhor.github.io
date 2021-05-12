@@ -1,18 +1,64 @@
-html {
-    font-family: Avenir;
+html, body{
+    height: 100%;
+    font: large Avenir;
+    color: black;
+    font-family: 'JetBrains Mono', monospace;
 }
 
-#main-message {
-    position: flex;
-    align-items: center;
-    justify-content: center;
+* {
+    border: 2px solid red;
+}
+
+#root {
+    border: 2px solid red;
+}
+
+#main-content {
+    border: 2px solid red;
+    width: 100%;
+    height: 80%;
+}
+
+#header, #footer {
+    border: 2px solid red;
+    width: 100%;
+    height: 10%;
+}
+
+#main-content-left, #main-content-right, #main-content-main {
+    border: 2px solid red;
+}
+
+#main-content-left, #main-content-right {
+    width: 20%;
+    height: 100%;
+}
+
+#main-content-main {
+    width: 80%;
+    height: 100%;
+}
+
+#header-home, #header-projects, #header-resume, #header-blog {
+    width: 25%;
+    height: 100%;
+    border: 2px solid red;
     text-align: center;
-    font-size: large;
-    color: darkgreen;
-    z-index: 1;
+    font: large 'JetBrains Mono';
 }
 
-#square {
-    background-color: aqua;
-    color:rgb(0, 255, 8)
+#footer div {
+    width: 25%;
+    height: 100%;
+    border: 2px solid red;
+    font: large 'JetBrains Mono';
+}
+
+h1 {
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+a {
+    text-decoration: none;
 }
